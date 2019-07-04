@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>联系我们</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/minimal-table.css" rel="stylesheet" type="text/css">
+
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
 
     <!-- 百度统计 -->
@@ -36,11 +38,74 @@
         <li>大泽乡</li>
       </ul>
 
-      <br />
-      <p>篮球教学视频</p>
+      <hr />
 
-      <iframe src="https://player.bilibili.com/player.html?aid=47441335&cid=83089367&page=1"
-      scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="900px" height="700px">
-      </iframe>
+      <h1>表格</h1>
+
+      <table>
+      <caption>手机配置对比</caption>
+        <tr>
+          <td colspan="3">&nbsp;</td>
+          <th scope="col">小米</th>
+          <th scope="col">华为</th>
+        </tr>
+        <tr>
+          <th rowspan="5" scope="rowgroup">硬件</th>
+          <th colspan="2" scope="row">CPU</th>
+          <td>高通</td>
+          <td>麒麟</td>
+        </tr>
+        <tr>
+          <th colspan="2" scope="row">屏幕</th>
+          <td>1080P视网膜</td>
+          <td>1080P视网膜</td>
+        </tr>
+        <tr>
+          <th rowspan="3" scope="rowgroup">存储空间</th>
+          <th class="symbol" scope="row">32GB</th>
+          <td>√</td>
+          <td>×</td>
+        </tr>
+        <tr>
+          <th class="symbol" scope="row">64GB</th>
+          <td>√</td>
+          <td>√</td>
+        </tr>
+        <tr>
+          <th class="symbol" scope="row">128GB</th>
+          <td>√</td>
+          <td>√</td>
+        </tr>
+        <tr>
+          <th rowspan="3" scope="rowgroup">软件</th>
+          <th colspan="2" scope="row">系统名称</th>
+          <td>MIUI</td>
+          <td>EMUI</td>
+        </tr>
+        <tr>
+          <th colspan="2" scope="row">最新版本</th>
+          <td>23.0.1</td>
+          <td>15.0.2</td>
+        </tr>
+        <tr>
+          <th colspan="2" scope="row">安卓版本</th>
+          <td>7.0</td>
+          <td>6.0</td>
+        </tr>
+      </table>
+
+      <br /><br />
+
+      <hr />
+
+      <h1>篮球教学视频</h1>
+
+      <p align="center">
+        <iframe src="https://player.bilibili.com/player.html?aid=47441335&cid=83089367&page=1"
+          scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="900px" height="700px">
+        </iframe>
+      </p>
+      
+      <hr />
   </body>
 </html>
