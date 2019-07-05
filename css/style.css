@@ -96,6 +96,8 @@ html, body {
     color: white;
     text-shadow: 0 0 10px wheat;
     transition-duration: 200ms;
+    font-weight:bold;
+    transform: scale(2);
   }
 
   input {
