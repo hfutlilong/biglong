@@ -222,3 +222,33 @@ html, body {
       animation: octocat-wave 560ms ease-in-out
     }
   }
+
+  /* 弹性盒子 */
+  section {
+    display: flex;
+  }
+
+  #mysection button {
+    flex: 1 auto;
+    margin: 5px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  #mysection article {
+    margin: 10px;
+    background: aqua;
+  }
+
+  #mysection h2, p {
+    font-family: sans-serif;
+  }
+
+  #renmin p {
+    text-indent: 8em;
+  }
+
+  .xinhuashe {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
