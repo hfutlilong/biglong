@@ -45,6 +45,7 @@ html, body {
   
   p, li {
     font-size: 1.6rem;
+    font-family: 'Courier New', Courier, monospace;
     line-height: 1.5;
   }
   
